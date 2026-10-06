@@ -6,7 +6,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.encrypt.Encryptors;
 import org.springframework.security.crypto.encrypt.TextEncryptor;
 
+import lombok.RequiredArgsConstructor;
+
 @Configuration 
+@RequiredArgsConstructor 
 public class CryptoConfig {
     
     @Bean 
