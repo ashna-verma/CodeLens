@@ -1,4 +1,4 @@
-package devPilot.backend.services.indexing;
+package CodeLens.backend.services.indexing;
 
 import java.time.Instant;
 import java.util.ArrayList;
